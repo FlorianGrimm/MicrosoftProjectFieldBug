@@ -126,19 +126,21 @@ The basis for this is https://github.com/OfficeDev/PnP-powershell and the defini
 
 The idea:
 
-1) Adapt the definitions of the fields, so that name conflicts no longer occur (pws as a prefix for the names), which adapt FieldRefs and formulas
-2) Create the fields with the modified defnition.
-3) Create the ContentTypes.
-4) Add the Fields to the ContentType.
+- Adapt the definitions of the fields, so that name conflicts no longer occur (pws as a prefix for the names), which adapt FieldRefs and formulas
+- Create the fields with the modified defnition.
+- Create the ContentTypes.
+- Add the Fields to the ContentType.
 
 Here we go.
 
-1) Install https://github.com/OfficeDev/PnP-powershell.
-2) Open the script in the ISE.
-2) Adjust the value for $url - specify the SiteCollection to which you want to change it.
-3) If necessary, adjust the paths according to SharePoint version.
-4) Run the script.
-5) Testing.
+- Install https://github.com/OfficeDev/PnP-powershell.
+- Open the script in the ISE.
+- Adjust the value for $url - specify the SiteCollection to which you want to change it.
+- If necessary, adjust the paths according to SharePoint version.
+- Run the script.
+- Testing.
+
+The script must be configured.
 
 ```powershell
 # 
